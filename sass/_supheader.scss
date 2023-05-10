@@ -1,0 +1,22 @@
+.supheader {
+    height: 21px;
+    display: flex;
+    align-items: center;
+    .currency {
+        margin-right: 20px;
+        min-width: 31px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #9B9B9B;
+    }
+    .current-city {
+        display: flex;
+        align-items: center;
+        min-width: 80px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+        color: #000000;
+    }
+}

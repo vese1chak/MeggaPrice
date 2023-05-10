@@ -1,0 +1,28 @@
+.promo {
+    display: flex;
+    justify-content: space-between;
+    &__item {
+        transition: all .2s;
+        width: 370px;
+        height: 188px;
+        border-radius: 4px;
+        &_1 {
+            background: url('../img/slides/slide-1.jpg') center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_2 {
+            background: url('../img/slides/slide-2.jpg') center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_3 {
+            background: url('../img/slides/slide-3.jpg') center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

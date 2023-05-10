@@ -1,0 +1,46 @@
+.top-sales {
+    &__item {
+        margin-right: 57px;
+        margin-bottom: 34px;
+        height: 398px;
+        width: 256px;
+        border: 1px solid #000000;
+        &__img {
+            height: 270px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 93%;
+                width: 100%;
+            }
+        }
+        .to-cart {
+            display: flex;
+            .price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 54px;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 31px;
+                color: #000000;
+                border: 3px solid #4EA16B;
+            }
+            a {
+                display: block;
+                width: 50%;
+                height: 54px;
+                font-weight: 400;
+                font-size: 23px;
+                line-height: 54px;
+                text-align: center;
+                color: #FFFFFF;
+                background-color: #4EA16B;
+                text-decoration: none;
+            }
+        }
+    }
+}
