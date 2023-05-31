@@ -1,0 +1,84 @@
+.button {
+    background-color: $main-color;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 2px solid $main-color;
+    width: 50%;
+    height: 100%;
+    &_submit {
+        width: 492px;
+        height: 78px;
+        border: none;
+        border-radius: 10px;
+        &-big {
+            font-size: 40px;
+        }
+    }
+    &_autorization {
+        font-size: 30px;
+    }
+    &_to-cart {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 3;
+        text-align: center;
+        width: 250px;
+        height: 64px;
+        background: #4EA16B;
+        border-radius: 10px;
+    }
+    &:hover {
+        box-shadow: inset 0px 12px 20px rgba(0, 0, 0, 0.25);
+    }
+    &__registration {
+        padding: 15px 125px;
+        width: 550px;
+        height: 60px;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    &_address {
+        margin-top: 8px;
+        width: 345px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        text-decoration-line: underline;
+        color: #000000;
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 10px;
+    }
+    &_w100 {
+        width: 100%;
+    }
+}
+.switch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 56px;
+    &__input {
+        display: flex;
+        align-items: center;
+        width: 38px;
+        height: 22px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        margin-right: 24px;
+        &-circle {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #000;
+            border-radius: 100%;
+            margin-left: 2px;
+        }
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 26px;
+        color: #000000;
+    }
+}

@@ -1,0 +1,29 @@
+.parameter {
+    max-width: 380px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 27px;
+    &__title {
+        width: 177px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+    }
+    &__info {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+    }
+    &-all {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        text-decoration-line: underline;
+        color: #000000;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+}

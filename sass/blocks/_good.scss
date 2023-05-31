@@ -1,0 +1,84 @@
+.good {
+    margin: 67px 0;
+    .rating {
+        display: flex;
+        align-items: center;
+        img {
+            display: block;
+            width: 120px;
+            height: 29px;
+            margin-right: 26px;
+        }
+        span {
+            font-weight: 400;
+            font-size: 24px;
+            color: #000000;
+        }
+    }
+    &-wrapper {
+        display: flex;
+    }
+    &-item {
+        display: flex;
+        width: 759px;
+        height: 466px;
+        &__img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                max-width: 95%;
+                max-height: 95%;
+            }
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+        &__title {
+            font-weight: 400;
+            font-size: 22px;
+            color: #000000;
+        }
+    }
+}
+.to-cart {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 270px;
+    height: 170px;
+    padding: 16px 10px 16px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    .prices {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+        .prices__new {
+            font-weight: 400;
+            font-size: 30px;
+            color: #000000;
+        }
+        .prices__old {
+            font-weight: 400;
+            font-size: 24px;
+            text-decoration-line: line-through;
+            color: #000000;
+        }
+    }
+}
+.delivery {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+.recomendations {
+    margin-bottom: 36px;
+    .container {
+        .title {
+            margin-bottom: 36px;
+        }
+    }
+}

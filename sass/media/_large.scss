@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+    .logo {
+        width: 159px;
+    }
+    .menu {
+        &__search {
+            margin-left: 15px;
+            .search {
+                width: 389px;
+            }
+        }
+        &-item {
+            margin-left: 15px;
+        }
+        &__catalog {
+            &__word {
+                font-size: 12px;
+            }
+        }
+    }
+    .carousel {
+        &__inner {
+            div {
+                div {
+                    width: 250px;
+                    height: 139px;
+                }
+            }
+        }
+    }
+    .top-sales {
+        &-item {
+            margin-right: 0px;
+            margin-bottom: 60px;
+            height: 370px;
+            &__img {
+                height: 270px;
+            }
+            &__subtitle {
+                font-size: 19px;
+            }
+        }
+    }
+    .button {
+        font-size: 16px;
+    }
+}

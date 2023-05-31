@@ -1,0 +1,68 @@
+@media (max-width: 992px) {
+    .logo {
+        a {
+            img {
+                width: 119px;
+            }
+        }
+    }
+    .menu {
+        &__catalog {
+            margin-right: 10px;
+        }
+        &__search {
+            margin-left: 0;
+            .search {
+                width: 300px;
+            }
+            button {
+                width: 50px;
+            }
+        }
+        &-item {
+            width: 58px;
+            margin-left: 2px;
+        }
+    }
+    .top-sales {
+        &-item {
+            margin-bottom: 17px;
+            height: 380px;
+            &__img {
+                height: 264px;
+            }
+            &__subtitle {
+                font-size: 19px;
+                line-height: 24px;
+                height: 53px;
+            }
+            &__footer {
+                height: 55px;
+            }
+            &__price {
+                &__old {
+                    line-height: 130%;
+                }
+                &__new {
+                    font-size: 23px;
+                    line-height: 120%;
+                }
+            }
+        }
+    }
+    .reviews {
+        &-item {
+            &__info {
+                &-author {
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+    .button {
+        font-size: 16px;
+        &_autorization {
+            font-size: 24px;
+        }
+    }
+}

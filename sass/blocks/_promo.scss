@@ -1,0 +1,30 @@
+.promo {
+    padding: 20px 15px;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 10000;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+	list-style-type: none;
+    transition: 0.6s all;
+    &_active {
+        right: 0;
+    }
+    &_item {
+        padding-right: 0;
+        border: none;
+        margin: 10px 0;
+        text-align: center;
+    }
+    &_link {
+        color: #fff;
+		font-size: 25px;
+		font-weight: 300;
+		text-decoration: none;
+    }
+}

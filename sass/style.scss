@@ -1,8 +1,32 @@
-@import 'supheader';
-@import 'menu';
-@import 'promo';
-@import 'top-sales';
-@import 'title';
+@import 'libs/bootstrap-grid';
+@import 'libs/bootstrap-reboot';
+@import 'libs/font';
+@import 'libs/slick';
+
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
 * {
     font-family: 'Inter', sans-serif;
 }
+@import 'blocks/supheader';
+@import 'blocks/menu';
+@import 'blocks/top-sales';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/carousel';
+@import 'blocks/forms';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+@import 'blocks/good';
+@import 'blocks/parameters';
+@import 'blocks/reviews';
+@import 'blocks/basket';
+@import 'blocks/completion';
+@import 'blocks/promo';
+@import 'media/large';
+@import 'media/medium';
+@import 'media/small';
+@import 'media/extrasmall';
+@import 'media/425';

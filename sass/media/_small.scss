@@ -1,0 +1,160 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .logo {
+        width: 119px;
+    }
+    .menu {
+        justify-content: space-around;
+        &__actions {
+            display: none;
+        }
+        &__catalog {
+            order: -1;
+            width: 36px;
+            height: 36px;
+            &__word {
+                display: none;
+            }
+        }
+        &__search {
+            width: 60%;
+            .search {
+                width: 100%;
+            }
+            button {
+                width: 42px;
+            }
+        }
+        &__fixed {
+            display: flex;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 366px;
+            div {
+                div {
+                    width: 366px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+    .top-sales {
+        &__content {
+            padding: 0 0 0 10px;
+        }
+        &-item {
+            height: 291px;
+            &__img {
+                height: 200px;
+            }
+            &__subtitle {
+                height: 35px;
+                font-size: 13px;
+                line-height: 16px;
+            }
+            &__footer {
+                height: 40px;
+            }
+            &__price {
+                &__old {
+                    font-size: 15px;
+                }
+                &__new {
+                    font-size: 16px;
+                    line-height: 150%;
+                }
+            }
+            .rating {
+                height: 19px;
+                width: 88px;
+            }
+        }
+    }
+    .button {
+        font-size: 10px;
+        &_to-cart {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            font-size: 20px;
+            line-height: 50px;
+            width: 95%;
+            height: 50px;
+        }
+        &_autorization {
+            font-size: 26px;
+            width: 100%;
+        }
+        &_submit {
+            &-big {
+                font-size: 40px;
+            }
+        }
+        &_address {
+            font-size: 20px;
+        }
+    }
+    .modal {
+        width: 90%;
+        &__close {
+            top: 30px;
+            right: 40px;
+        }
+        .sign-in {
+            width: 100%;
+        }
+        .registration {
+            &-wrapper {
+                width: 100%;
+            }
+            &-item {
+                &__hint {
+                    width: 190px;
+                }
+            }
+        }
+    }
+    .basket {
+        &-item {
+            &__title {
+                font-size: 22px;
+            }
+            &__descr {
+                font-size: 15px;
+            }
+            &__amount {
+                margin-right: 18px;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .registration {
+        &-wrapper {
+            width: 100%;
+        }
+    }
+    .pageup {
+        bottom: 120px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .to-order {
+        display: flex;
+        bottom: 100px;
+        right: 0;
+        width: 100%;
+        height: 120px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}

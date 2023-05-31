@@ -1,0 +1,77 @@
+@media (max-width: 425px) {
+    body {
+        overflow-x: hidden;
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+            div {
+                div {
+                    width: 355px;
+                }
+            }
+        }
+    }
+    .top-sales {
+        &-item {
+            max-width: 90%;
+            height: 260px;
+            .rating {
+                height: 21px;
+                width: 88px;
+            }
+            &__subtitle {
+                height: 35px;
+                font-size: 12px;
+                line-height: 16px;
+            }
+            &__price {
+                &__new {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .basket {
+        &-item {
+            &__img {
+                width: 185px;
+                margin-right: 10px;
+            }
+            &__title {
+                font-size: 18px;
+            }
+            &__descr {
+                font-size: 13px;
+            }
+            &__prices {
+                &-new {
+                    font-size: 22px;
+                }
+                &-old {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .receiving {
+        &__tab {
+            font-size: 18px;
+        }
+    }
+    .button {
+        &_autorization {
+            font-size: 20px;
+        }
+    }
+    .slick-arrow {
+        display: none;
+    }
+    .modal {
+        &__subtitle {
+            font-size: 30px;
+            margin-top: 10px;
+            margin-bottom: -8px;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+@media (max-width: 576px) {
+    .logo {
+        display: none;
+    }
+    .title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .menu {
+        justify-content: start;
+        &__search {
+            width: 90%;
+            form {
+                width: 100%;
+            }
+            .search {
+                width: 100%;
+            }
+            button {
+                width: 20%;
+            }
+        }
+    }
+    .top-sales {
+        &-item {
+            height: 275px;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-bottom: 25px;
+            &__img {
+                height: 187px;
+            }
+            &__subtitle {
+                height: 50px;
+                font-size: 15px;
+                line-height: 22px;
+            }
+            &__footer {
+                height: 38px;
+            }
+            &__price {
+                line-height: 35px;
+            }
+        }
+    }
+    .basket {
+        &-item {
+            &__img {
+                width: 175px;
+            }
+            &__amount {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                width: 100px;
+            }
+        }
+    }
+    .reviews {
+        &-item {
+            &__info {
+                display: flex;
+                flex-wrap: wrap;
+                &-author {
+                    font-size: 20px;
+                }
+                &-date {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .completion {
+        &-cost {
+            width: 100%;
+            margin-left: 0;
+        }
+        &-result {
+            width: 100%;
+        }
+    }
+    .button {
+        &_autorization {
+            font-size: 28px;
+        }
+    }
+    .modal {
+        &__close {
+            right: 20px;
+        }
+    }
+}
